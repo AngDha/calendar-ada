@@ -1,0 +1,144 @@
+V "GNAT Lib v15"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+
+U cal%b			cal.adb			6b515475 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20250419085653 76789da1 ada%s
+D a-except.ads		20250419085653 e7970cd9 ada.exceptions%s
+D a-inteio.ads		20250419085653 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20250419085653 40018c65 ada.io_exceptions%s
+D a-stream.ads		20250419085653 17477cbd ada.streams%s
+D a-string.ads		20250419085653 90ac6797 ada.strings%s
+D a-sttebu.ads		20250419085653 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20250419085653 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20250419085653 fbca0ad5 ada.tags%s
+D a-textio.ads		20250419085653 34ef47de ada.text_io%s
+D a-tiinio.ads		20250419085653 76699c8f ada.text_io.integer_io%s
+D a-unccon.ads		20250419085653 0e9b276f ada.unchecked_conversion%s
+D cal.adb		20260220012400 a9f59a0f cal%b
+D interfac.ads		20250419085653 9111f9c1 interfaces%s
+D i-cstrea.ads		20250419085653 ffd01b9d interfaces.c_streams%s
+D system.ads		20250419085653 70765b54 system%s
+D s-conca2.ads		20250419085653 b5fb73f7 system.concat_2%s
+D s-crtl.ads		20250419085653 beb39b9e system.crtl%s
+D s-exctab.ads		20250419085653 91bef6ef system.exception_table%s
+D s-ficobl.ads		20250419085653 dc5161d4 system.file_control_block%s
+D s-imagei.ads		20250419085653 5e131ce0 system.image_i%s
+D s-imgint.ads		20250419085653 67e4edfb system.img_int%s
+D s-parame.ads		20250419085653 3597fc11 system.parameters%s
+D s-putima.ads		20250419085653 17291fe4 system.put_images%s
+D s-secsta.ads		20250419085653 578279f5 system.secondary_stack%s
+D s-soflin.ads		20250419085653 5d88fdea system.soft_links%s
+D s-stache.ads		20250419085653 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20250419085653 1c9580f6 system.standard_library%s
+D s-stoele.ads		20250419085653 ccded4e8 system.storage_elements%s
+D s-traent.ads		20250419085653 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20250419085653 fa2a7f59 system.unsigned_types%s
+D s-valspe.ads		20250419085653 f810d31c system.val_spec%s
+D s-vaispe.ads		20250419085653 8280550e system.value_i_spec%s
+D s-vauspe.ads		20250419085653 89269ba5 system.value_u_spec%s
+D s-vs_int.ads		20250419085653 06b6b724 system.vs_int%s
+D s-vs_uns.ads		20250419085653 e7f47a27 system.vs_uns%s
+D s-wchcon.ads		20250419085653 d9032363 system.wch_con%s
+G a e
+G c Z b b [cal standard 9 11 none]
+X 1 ada.ads
+18K9*Ada 22e8 13|6r6 6r23 7r6 7r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 13|7w10 7r35
+X 10 a-textio.ads
+58K13*Text_IO 785e16 13|6w10 6r27
+67P9*File_Type 13|21r11
+69n23*In_File{69E9} 13|253r15
+89I12*Field{integer}
+115U14*Open 13|253s4
+131U14*Close 13|267s4
+284U14*New_Line 13|167s7 179s7 207s10 211s7 246s10 271s4
+290U14*Skip_Line 13|263s13
+341V13*End_Of_File{boolean} 13|262s17
+414U14*Get 13|258s13
+419U14*Get 13|48s7
+433U14*Put 13|238s19
+515U14*Put 13|36s10 47s7 159s10 161s13 163s13 171s10 173s13 175s13 193s16
+. 202s16 227s13 241s16
+565U14*Put_Line 13|43s13
+X 11 a-tiinio.ads
+62U14*Get 13|37s10[3|18]
+85U14*Put 13|197s16[3|18]
+87i7 Width{10|89I12} 13|197r32[3|18]
+X 13 cal.adb
+9U11*Cal 9b11 289l5 289t8
+11A9 gridRow(integer)<integer><integer> 95r114 184r38 280r24
+14a4 fontArr(character) 238r23 258m23 258r23
+17i4 year{integer} 269m17 270r11 284r24
+18i4 firstDay{integer} 269m23 274r17
+19e4 lang{character} 269m33 285r41
+20i4 curOffset{integer} 274m4 284m45 284r45
+21p4 File{10|67P9} 253m9 253r9 258r17 262r29 263r23 267m10 267r10
+24V13 isValid{boolean} 24b13 24>21 27l8 27t15 39s13
+24i21 year{integer} 26r14
+30U14 readcalinfo 30b14 30<26 30<46 30<70 53l8 53t19 269s4
+30i26 year{integer} 40m13
+30i46 firstday{integer} 51m7
+30e70 lang{character} 48m11
+31i7 yearTemp{integer} 37m14 39r21 40r21 50r12
+32i7 y{integer} 50m7 51r25 51r30 51r40 51r52
+56V13 leapyear{boolean} 56b13 56>22 69l8 69t16 82s13
+56i22 year{integer} 59r11 61r14 63r14
+72V13 numdaysinmonth{integer} 72b13 72>28 72>48 92l8 92t22 109s25
+72i28 month{integer} 76r12
+72i48 year{integer} 82r22
+95U14 buildcalendar 95b14 95>28 95>47 95=75 95<103 135l8 135t21 284s10
+95i28 year{integer} 109r60
+95i47 startingMonth{integer} 109r41
+95i75 dayOffset{integer} 119r35 131m10 131r24
+95a103 grid{11A9} 103m7 124m19
+97i7 daysInMonth{integer} 109m10 123r36 131r36
+98i7 currentDay{integer} 108m10 123r22 124r47 125m19 125r33
+99i7 columnStart{integer} 112m10 124r27
+106i11 i{integer} 109r57 112r25
+115i14 j{integer} 119r20 124r24
+116i17 n{integer} 119r30 124r41
+138U14 printrowheading 138b14 138>30 138>58 181l8 181t23 285s10
+138i30 startingMonth{integer} 161r27 163r30
+138e58 lang{character} 160r13 160r27 172r13 172r27
+140A12 monthnameArray(string)<integer> 142r28 147r31
+142a7 engMonths{140A12} 161r17
+147a7 frenchMonths{140A12} 163r17
+152a7 engDays{string} 173r17
+153a7 frenchDays{string} 175r17
+158i11 i{integer} 161r43 163r46
+170i11 i{integer}
+184U14 printrowmonth 184b14 184>28 213l8 213t21 286s10
+184a28 grid{11A9} 192r16 197r20
+188i11 i{integer} 192r21 197r25
+189i14 j{integer} 192r24 197r28 201r16
+216U14 banner 216b14 216>21 216>40 248l8 248t14 270s4
+216i21 year{integer} 219r50
+216i40 indent{integer} 226r24
+219a7 yearStr{string} 231r31 234r58
+224i11 i{integer} 238r38
+226i14 j{integer}
+231i14 position{integer} 234r66
+234i16 Digit{integer} 238r31
+237i20 column{integer} 238r41
+254i8 i{integer} 258r31
+255i11 j{integer} 258r34
+256i14 n{integer} 258r37
+277i8 i{integer} 282r38
+280a10 currentGrid{11A9} 284m56 286r24
+282i10 startingMonth{integer} 284r30 285r26
+
