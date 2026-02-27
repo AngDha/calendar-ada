@@ -1,8 +1,3 @@
-    --ASSIGNMENT: CIS*3190 A2
-    --AUTHOR: Angad Dhaliwal
-    --DATE CREATED: Feb 14th 2026
-    --DATE UPDATED: Feb 17th 2026
-    --DESCRIPTION: makes a calendar in Ada using a text file to generate a header
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 
